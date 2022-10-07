@@ -1,0 +1,236 @@
+*{
+    font-family: 'Atkinson Hyperlegible';
+    -webkit-text-size-adjust:none;
+}
+.front_body {
+    display: flex;
+    height: 100vh;
+    background-image: url("./Img/ben-o-bro-wpU4veNGnHg-unsplash.jpg");
+    background-position: -6em -4em;
+    background-size: cover;
+}
+
+.col1_front {
+    background-color: rgba(35, 47, 61, 1);
+    width: 30%;
+}
+
+.col2_front {
+    background-image: linear-gradient( rgba(35, 47, 61, 1) , rgba(255, 51, 102, 1));
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+}
+
+.icon_links {
+    position: absolute;
+    display: flex;
+    width: 16%;
+    height: 5%;
+    top: 75%;
+    left: 40%;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.icon_links > nav   {
+    color: white;
+    margin-left: 1.5em;
+    font-size: 2.1em;
+    transition-duration: 0.3s;
+}
+
+
+.profile_pic {
+    position: absolute;
+    background-image: url("./Img/new.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgba(255, 51, 102, 1);
+    box-shadow: 0px 0px 22px 2px black;
+    width: 20%;
+    height: 74%;
+    align-self: center;
+    left: 20%;
+    transition-duration: 0.3s;
+}
+
+.profile_pic:hover {
+    box-shadow: 0px 0px 11px 0.1px black;
+}
+
+.name {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    width: fit-content;
+    height: fit-content;
+    top: 35%;
+    left: 37%;
+}
+
+.surname {
+    color: rgba(255, 51, 102, 1);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 15%;
+    height: fit-content;
+    width: max-content;
+}
+
+.profile_description {
+    width: 30rem;
+    height: 10rem;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-top: 0.4em;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+}
+
+.more_information {
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    letter-spacing: 2px;
+    height: 74%;
+    align-self: center;
+    left: 2%; 
+    padding-top: 1%;
+}
+
+.more_information > div {
+    margin-bottom: 7%;
+}
+
+.resume_div {
+    padding-top: 50%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume_div > a > button {
+    width: fit-content;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    font-size: 15px;
+    margin-bottom: 10%;
+    border: none;
+    background-color: rgb(240, 46, 94);
+    letter-spacing: 0.1%;
+    font-weight: 200;
+    box-shadow: 0px 2px 11px 0.1px black;
+    transition-duration: 0.3s;
+}
+
+.resume_icon {
+    scale: 130%;
+    padding-top: 2px;
+}
+
+.resume_div > a > button:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    background-color: rgb(54, 73, 94);
+}
+
+.routes_links{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 15%;
+    height: 74%;
+    padding: 0%;
+    align-self: center;
+    right: 5%;   
+}
+
+.routes_links nav > nav > a:hover {
+    color: rgb(255, 83, 126);
+    cursor: pointer;
+}
+.routes_links > nav > nav > a{
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.routes_links > nav > nav {
+    margin-top: 1.2rem;
+}
+
+hr {
+    border: 1px solid rgb(255, 83, 126);
+    background-color: rgb(255, 83, 126);
+    border-radius: 5%;
+}
+
+@media screen and (orientation: portrait)  {
+
+    .col1_front {
+        width: 55%;
+    }
+
+    .profile_pic{
+        width: 40%;
+        height: 30%;
+    }
+    .name {
+        font-size: 2rem;
+        left: 45%;
+        top: 61%;
+    }
+
+    .surname {
+        font-size: 1.1rem;
+        margin-bottom: 7%;
+    }
+
+    .profile_description {
+        width: 70%;
+        font-size: 11px;
+    }
+    .icon_links {
+        top: 90%;
+        left: 49.5%;
+    }
+    .front_body {
+        background-position: center;
+        background-size: cover;
+    }
+    .icon_links > nav {
+        margin-left: 1em;
+        font-size: 1em;
+
+    }
+    .resume_div {
+        padding-top: 0%;
+        position: absolute;
+        width: fit-content;
+        top: 76.5%;
+        left: 22%;
+    }
+    .resume_div > button {
+        width: fit-content;
+        font-size: 11px;
+    }
+    .fontReduce {
+        font-size: 11px;
+        padding-right: 2%;
+    }
+    
+    .resume_icon {
+        scale: 100%;
+    }
+
+    .gmail {
+        letter-spacing: 0px;
+    }
+  }
