@@ -18,13 +18,13 @@ const FrontPage = () => {
           className="profile_pic"
           initial={{ y: "10vh", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.1, delay: 0.2 }}
+          transition={{ duration: 0.1, delay: 1 }}
         ></motion.div>
         <motion.div
           className="more_information fontReduce"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.9 }}
+          transition={{ duration: 0.8, delay: 1.7 }}
         >
           <div className="gmail">
             Email:
@@ -50,7 +50,7 @@ const FrontPage = () => {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
+            transition={{ duration: 0.8, delay: 1.7 }}
           >
             ROHAN
           </motion.div>
@@ -58,7 +58,7 @@ const FrontPage = () => {
             className="surname"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.6 }}
+            transition={{ duration: 0.8, delay: 2.4 }}
           >
             {" "}
             KUMAR PANDEY
@@ -67,7 +67,7 @@ const FrontPage = () => {
             className="profile_description fontReduce"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.6 }}
+            transition={{ duration: 0.8, delay: 2.4 }}
           >
             My name is Rohan Kumar Pandey. I'm an Artist, Front-End developer
             and Content Creator. I love travelling, meeting new people and
@@ -78,7 +78,7 @@ const FrontPage = () => {
           className="icon_links"
           initial={{ y: "13vh", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.1, delay: 0.24 }}
+          transition={{ duration: 0.1, delay: 1.04 }}
         >
           <nav>
             <a
@@ -116,7 +116,7 @@ const FrontPage = () => {
           className="routes_links fontReduce"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1.6 }}
+          transition={{ duration: 0.8, delay: 2.4 }}
         >
           <nav>
             <nav>

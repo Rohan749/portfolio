@@ -6,16 +6,12 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  HashRouter,
 } from "react-router-dom";
-import { Switch } from "@mui/material";
 
 function App() {
   return (
     <>
       <Router>
-        <HashRouter basename="/rohan-portfolio-website/">
-          <Switch>
             <Routes>
               <Route path="/rohan-portfolio-website/" element={<FrontPage />} />
               <Route
@@ -27,8 +23,6 @@ function App() {
                 element={<Skills />}
               />
             </Routes>
-          </Switch>
-        </HashRouter>
       </Router>
     </>
   );
