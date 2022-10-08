@@ -159,10 +159,10 @@ const ProjectSection = () => {
         >
           <nav>
             <nav>
-              <a href="/">Home</a>
+              <a href="/rohan-portfolio-website/">Home</a>
             </nav>
             <nav>
-              <a href="/skills">Skills & Education</a>
+              <a href="/rohan-portfolio-website/skills">Skills & Education</a>
             </nav>
           </nav>
         </motion.div>

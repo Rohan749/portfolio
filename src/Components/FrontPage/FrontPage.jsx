@@ -120,11 +120,11 @@ const FrontPage = () => {
         >
           <nav>
             <nav>
-              <a href="/projects">Project</a>
+              <a href="/rohan-portfolio-website/projects">Project</a>
             </nav>
             <hr />
             <nav>
-              <a href="/skills">Skills & Education</a>
+              <a href="/rohan-portfolio-website/skills">Skills & Education</a>
             </nav>
             <hr />
           </nav>

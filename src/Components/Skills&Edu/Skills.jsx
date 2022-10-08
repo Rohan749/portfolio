@@ -70,10 +70,10 @@ const Skills = () => {
         >
           <nav>
             <nav>
-              <a href="/">Home</a>
+              <a href="/rohan-portfolio-website/">Home</a>
             </nav>
             <nav>
-              <a href="/projects">Projects</a>
+              <a href="/rohan-portfolio-website/projects">Projects</a>
             </nav>
           </nav>
         </motion.div>
