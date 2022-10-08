@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rohan-portfolio-website/static/css/main.0c18fb1e.css",
+    "main.js": "/rohan-portfolio-website/static/js/main.167e0efc.js",
+    "static/media/ben-o-bro-wpU4veNGnHg-unsplash.jpg": "/rohan-portfolio-website/static/media/ben-o-bro-wpU4veNGnHg-unsplash.a484e3debcda6575b19e.jpg",
+    "static/media/Screenshot from 2022-05-26 10-37-19.png": "/rohan-portfolio-website/static/media/Screenshot from 2022-05-26 10-37-19.aa65c7c6f71c61c30271.png",
+    "static/media/new.jpg": "/rohan-portfolio-website/static/media/new.718642301cd8fcb97403.jpg",
+    "static/media/caw.png": "/rohan-portfolio-website/static/media/caw.7a063946a1173ff4531c.png",
+    "static/media/graffiti.jpg": "/rohan-portfolio-website/static/media/graffiti.a8e1205e29edcde73c7c.jpg",
+    "static/media/foodelicious.jpg": "/rohan-portfolio-website/static/media/foodelicious.ec4507320dd6893d02fd.jpg",
+    "static/media/Screenshot from 2022-05-26 11-27-52.png": "/rohan-portfolio-website/static/media/Screenshot from 2022-05-26 11-27-52.0dfaad2ebddfc56b5e28.png",
+    "static/media/bgchange.png": "/rohan-portfolio-website/static/media/bgchange.d194f552ba19eed466ff.png",
+    "index.html": "/rohan-portfolio-website/index.html",
+    "main.0c18fb1e.css.map": "/rohan-portfolio-website/static/css/main.0c18fb1e.css.map",
+    "main.167e0efc.js.map": "/rohan-portfolio-website/static/js/main.167e0efc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c18fb1e.css",
+    "static/js/main.167e0efc.js"
+  ]
+}
