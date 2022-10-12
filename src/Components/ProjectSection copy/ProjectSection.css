@@ -9,7 +9,7 @@
 
 .project_body {
   margin: 0%;
-  height: 310vh;
+  height: 320vh;
   width: 100vw;
   display: flex;
   background-image: url("./Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg");
@@ -23,7 +23,7 @@
   height: 100vh;
   left: 0;
   width: 35%;
-  height: 310vh;
+  height: 320vh;
 }
 
 .right_side {
@@ -31,7 +31,7 @@
   height: 100vh;
   right: 0;
   width: 70%;
-  height: 310vh;
+  height: 320vh;
 }
 
 .heading {
