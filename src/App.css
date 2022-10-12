@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.skill__links {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0%;
+    top: 0%;
+    right: 0%;
+    background: rgb(13, 13, 13);
+    height: 7%;
+    font-size: large;
+    box-shadow: 0px 4px 25px 0.1px black;
+    z-index: 9999999;
+
+}
+
+.skill__links > nav > a {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.skill__links > nav > a:hover {
+    color: rgb(255, 0, 255);
+    transition-duration: 0.3s;
+}
+
+@media screen and (min-width:360px) {
+    .skill__links {
+        font-size: 13px;
+    }
+  }

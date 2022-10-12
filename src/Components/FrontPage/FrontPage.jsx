@@ -1,87 +1,51 @@
 import React from "react";
 import "./FrontPage.css";
+import { motion } from "framer-motion";
 import { GrTwitter } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { HiClipboardCopy } from "react-icons/hi";
-import { motion } from "framer-motion";
 
 const FrontPage = () => {
   return (
     <>
-      <div className="front_body">
-        <div className="col1_front"></div>
-        <div className="col2_front"></div>
-        <motion.div
-          className="profile_pic"
-          initial={{ y: "10vh", opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.1, delay: 1 }}
+      <div className="leftside" />
+      
+      <div id="home" className="background">
+        <motion.div className="profile"
+        initial={{ y: "15vh", opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
         ></motion.div>
-        <motion.div
-          className="more_information fontReduce"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1.7 }}
+        <motion.div className="name"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 1.9 }}
+        >ROHAN</motion.div>
+        <motion.div className="surname"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 2.7 }}
+        >KUMAR PANDEY</motion.div>
+        <motion.div className="desc"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 2.7}}
         >
-          <div className="gmail">
-            Email:
-            <br /> rohanpandey749@gmail.com
-          </div>
-          <div>
-            Ph No.:
-            <br /> 91-8210036627
-          </div>
-          <div className="resume_div">
-            <a 
-            href="https://drive.google.com/file/d/1xyQQK6hRdaWSjonEpjcXOnpXt52jbMhy/view?usp=sharing"
-            target="_blank"
-            ><button>
-              Resume <HiClipboardCopy className="resume_icon" />
-            </button></a>
-            <a href="https://www.showwcase.com/rohan749"
-            target="_blank"
-            ><button>Showwcase</button></a>
-          </div>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
+          molestiae voluptates ipsa quo repudiandae iusto rem incidunt error
+          consectetur itaque. Quasi dolore tempore aspernatur debitis
+          praesentium magnam facere. Praesentium, debitis.
         </motion.div>
-        <div className="name">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.7 }}
-          >
-            ROHAN
-          </motion.div>
-          <motion.div
-            className="surname"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 2.4 }}
-          >
-            {" "}
-            KUMAR PANDEY
-          </motion.div>
-          <motion.div
-            className="profile_description fontReduce"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 2.4 }}
-          >
-            My name is Rohan Kumar Pandey. I'm an Artist, Front-End developer
-            and Content Creator. I love travelling, meeting new people and
-            creating content.
-          </motion.div>
-        </div>
-        <motion.div
-          className="icon_links"
-          initial={{ y: "13vh", opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.1, delay: 1.04 }}
+        <motion.div className="icons"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 3.5}}
         >
-          <nav>
-            <a
+        <nav>
+            <a className="a_link"
               href="https://www.linkedin.com/in/rohan-kumar-pandey-25a263208/"
               target="_blank"
             >
@@ -89,22 +53,22 @@ const FrontPage = () => {
             </a>
           </nav>
           <nav>
-            <a href="https://www.instagram.com/_r.code_/" target="_blank">
+            <a className="a_link" href="https://www.instagram.com/_r.code_/" target="_blank">
               <BsInstagram />
             </a>
           </nav>
           <nav>
-            <a href="https://twitter.com/heyrohan7" target="_blank">
+            <a className="a_link" href="https://twitter.com/heyrohan7" target="_blank">
               <GrTwitter />
             </a>
           </nav>
           <nav>
-            <a href="https://github.com/Rohan749" target="_blank">
+            <a className="a_link" href="https://github.com/Rohan749" target="_blank">
               <BsGithub />
             </a>
           </nav>
           <nav>
-            <a
+            <a className="a_link"
               href="https://auth.geeksforgeeks.org/user/rohanpandey749/practice"
               target="_blank"
             >
@@ -112,26 +76,21 @@ const FrontPage = () => {
             </a>
           </nav>
         </motion.div>
-        <motion.div
-          className="routes_links fontReduce"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 2.4 }}
+        <motion.div className="personal_info"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 3.5 }}
         >
-          <nav>
-            <nav>
-              <a href="/rohan-portfolio-website/projects">Project</a>
-            </nav>
-            <hr />
-            <nav>
-              <a href="/rohan-portfolio-website/skills">Skills & Education</a>
-            </nav>
-            <hr />
-          </nav>
+          <div className="info email"><strong>Email:</strong> <br /> rohanpandey749@gmail.com</div>
+          <div className="info phno"><strong>Ph No.:</strong> <br /> 8210036627</div>
+          <a href="https://drive.google.com/file/d/1xyQQK6hRdaWSjonEpjcXOnpXt52jbMhy/view?usp=sharing"
+            target="_blank"><button className="info resume">Download Resume<HiClipboardCopy className="clip"/></button></a>
+          <br />
+          <a href="https://www.showwcase.com/rohan749"
+            target="_blank"><button className="info showcase">Showwcase</button></a>
         </motion.div>
       </div>
     </>
   );
 };
-
 export default FrontPage;

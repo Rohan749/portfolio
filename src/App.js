@@ -1,29 +1,33 @@
 import React from "react";
+import "./App.css"
 import FrontPage from "./Components/FrontPage/FrontPage";
-import ProjectSection from "./Components/ProjectSection/ProjectSection";
+import ProjectSection from "./Components/ProjectSection copy/ProjectSection";
+
 import Skills from "./Components/Skills&Edu/Skills";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Router>
-            <Routes>
-              <Route path="/rohan-portfolio-website/" element={<FrontPage />} />
-              <Route
-                path="/rohan-portfolio-website/projects"
-                element={<ProjectSection />}
-              />
-              <Route
-                path="/rohan-portfolio-website/skills"
-                element={<Skills />}
-              />
-            </Routes>
-      </Router>
+    <div className="skill__links">
+        <nav />
+        <nav />
+        <nav />
+        <nav />
+        <nav />
+        <nav>
+          <a href="#home">Home</a>
+        </nav>
+        <nav>
+          <a href="#projects">Projects</a>
+        </nav>
+        <nav>
+          <a href="#skills">Skills</a>
+        </nav>
+      </div>
+      <FrontPage />
+      <ProjectSection />
+      <Skills />
+      
     </>
   );
 }

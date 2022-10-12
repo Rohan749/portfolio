@@ -1,30 +1,20 @@
 import React from "react";
 import "./ProjectSection.css";
-import { motion } from "framer-motion";
 
 const ProjectSection = () => {
   return (
     <>
+    <div id="projects" className="project_top"></div>
       <div className="project_body">
         <div>
           <div className="right_side" />
           <div className="left_side" />
         </div>
-        <motion.h1
-          className="heading"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.1 }}
-        >
+        <h1 className="heading">
           MY PROJECTS
-        </motion.h1>
+        </h1>
         <div className="p_body">
-          <motion.div
-            className="individual_projects "
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
-          >
+          <div className="individual_projects ">
             <div className="p_description ">
               <h2>Choice Predicting App</h2>
               <hr/>
@@ -42,14 +32,9 @@ const ProjectSection = () => {
               href="https://rohan749.github.io/Choice-Predicting-App/"
               className="p_image ch_app"
             ></a>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className="individual_projects"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.1 }}
-          >
+          <div className="individual_projects">
             <div className="p_description ">
               <h2>Expense App</h2>
               <hr/>
@@ -62,16 +47,11 @@ const ProjectSection = () => {
               href="https://rohan749.github.io/Expenses-App/"
               className="p_image exp_app"
             ></a>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className="individual_projects "
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.3 }}
-          >
+          <div className="individual_projects ">
             <div className="p_description ">
-              <h2>Rocket.Chat Community.Apps.Welcome</h2>
+              <h2>Rocket.Chat App</h2>
               <hr/>
               <p>
                 This app specifically runs inside Rocket.Chat. It will help
@@ -86,14 +66,9 @@ const ProjectSection = () => {
               href="https://github.com/Rohan749/Apps.Community.Welcome.v2"
               className="p_image caw"
             ></a>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className="individual_projects "
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.5 }}
-          >
+          <div className="individual_projects ">
             <div className="p_description ">
               <h2>Background Changing App</h2>
               <hr/>
@@ -111,14 +86,9 @@ const ProjectSection = () => {
               href="https://rohan749.github.io/Random-Background-Changing-Webpage/"
               className="p_image bg_app"
             ></a>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className="individual_projects "
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.7 }}
-          >
+          <div className="individual_projects ">
             <div className="p_description ">
               <h2>Graffiti Calculator</h2>
               <hr/>
@@ -132,14 +102,9 @@ const ProjectSection = () => {
               href="https://github.com/Rohan749/Basic-Calculator"
               className="p_image graf_app"
             ></a>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className="individual_projects "
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.9 }}
-          >
+          <div className="individual_projects ">
             <div className="p_description ">
               <h2>Food Ordering App</h2>
               <hr/>
@@ -149,23 +114,8 @@ const ProjectSection = () => {
               href="https://github.com/Rohan749/Food-ordering-webpage"
               className="p_image food_app"
             ></a>
-          </motion.div>
+          </div>
         </div>
-        <motion.div
-          className="prev_links "
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1.6 }}
-        >
-          <nav>
-            <nav>
-              <a href="/rohan-portfolio-website/">Home</a>
-            </nav>
-            <nav>
-              <a href="/rohan-portfolio-website/skills">Skills & Education</a>
-            </nav>
-          </nav>
-        </motion.div>
       </div>
     </>
   );
