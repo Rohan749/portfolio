@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.158096e4.css",
-    "main.js": "/portfolio/static/js/main.1e1111f1.js",
+    "main.js": "/portfolio/static/js/main.affaad4a.js",
     "static/media/12.png": "/portfolio/static/media/12.79dd765c18f59264a2c2.png",
     "static/media/ben-o-bro-wpU4veNGnHg-unsplash.jpg": "/portfolio/static/media/ben-o-bro-wpU4veNGnHg-unsplash.a484e3debcda6575b19e.jpg",
     "static/media/Screenshot from 2022-05-26 10-37-19.png": "/portfolio/static/media/Screenshot from 2022-05-26 10-37-19.aa65c7c6f71c61c30271.png",
@@ -12,10 +12,10 @@
     "static/media/bgchange.png": "/portfolio/static/media/bgchange.d194f552ba19eed466ff.png",
     "index.html": "/portfolio/index.html",
     "main.158096e4.css.map": "/portfolio/static/css/main.158096e4.css.map",
-    "main.1e1111f1.js.map": "/portfolio/static/js/main.1e1111f1.js.map"
+    "main.affaad4a.js.map": "/portfolio/static/js/main.affaad4a.js.map"
   },
   "entrypoints": [
     "static/css/main.158096e4.css",
-    "static/js/main.1e1111f1.js"
+    "static/js/main.affaad4a.js"
   ]
 }
