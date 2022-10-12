@@ -17,22 +17,22 @@ const FrontPage = () => {
         <motion.div className="profile"
         initial={{ y: "15vh", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 1, delay: 0.5 }}
+        transition={{ duration: 1, delay: 1.5 }}
         ></motion.div>
         <motion.div className="name"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 1.9 }}
+        transition={{ duration: 0.8, delay: 2.9 }}
         >ROHAN</motion.div>
         <motion.div className="surname"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 2.7 }}
+        transition={{ duration: 0.8, delay: 3.7 }}
         >KUMAR PANDEY</motion.div>
         <motion.div className="desc"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 2.7}}
+        transition={{ duration: 0.8, delay: 3.7}}
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
           molestiae voluptates ipsa quo repudiandae iusto rem incidunt error
@@ -42,7 +42,7 @@ const FrontPage = () => {
         <motion.div className="icons"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 3.5}}
+        transition={{ duration: 0.8, delay: 4.5}}
         >
         <nav>
             <a className="a_link"
@@ -79,7 +79,7 @@ const FrontPage = () => {
         <motion.div className="personal_info"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 3.5 }}
+        transition={{ duration: 0.8, delay: 4.5 }}
         >
           <div className="info email"><strong>Email:</strong> <br /> rohanpandey749@gmail.com</div>
           <div className="info phno"><strong>Ph No.:</strong> <br /> 8210036627</div>
