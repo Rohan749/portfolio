@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css"
 import FrontPage from "./Components/FrontPage/FrontPage";
 import ProjectSection from "./Components/ProjectSection copy/ProjectSection";
-
 import Skills from "./Components/Skills&Edu/Skills";
 
 function App() {
